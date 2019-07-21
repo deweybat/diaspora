@@ -7,12 +7,12 @@
         %h3.text-center
           = t(".community_welcome")
 
+        %h3.text-center  
+          %a{:href => 'https://diasporafoundation.org/tutorials'} Official Diaspora* Tutorials
+
         = invited_by_message
 
         .small-horizontal-spacer
-
-        %h3
-          = t(".who_are_you")
 
         = form_tag profile_path, method: :put, remote: true, id: 'edit_profile' do
           %fieldset
@@ -28,9 +28,6 @@
 
         %h3
           = t('.what_are_you_in_to')
-
-        %p
-          = t('.hashtag_explanation')
 
         = form_tag(tag_followings_path, method: 'get', class: "tag_input search_form") do
           %fieldset

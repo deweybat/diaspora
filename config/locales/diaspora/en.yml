@@ -1293,6 +1293,7 @@ en:
       what_are_you_in_to: "What are you into?"
       hashtag_explanation: "Hashtags allow you to talk about and follow your interests. They’re also a great way to find new people on diaspora*."
       hashtag_suggestions: "Try following tags like #art, #movies, #gif, etc."
+      official_tutorial: "%{email}"
 
     update:
       password_changed: "Password changed. You can now log in with your new password."
